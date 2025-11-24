@@ -3,7 +3,6 @@ const serviceAccount = require("./serviceAccountKey.json");
 const admin = require('firebase-admin');
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '1089191013:AAES4pnsKnmey8hxr4v58bLOeVf3T9P1Fss'; 
 const bot = new TelegramBot(token, { polling: true });
 
 const { v4: uuidv4 } = require('uuid');
